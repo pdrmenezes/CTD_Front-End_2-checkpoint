@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Source+Code+Pro:wght@300;400;600;700&display=swap');
+
+/* 
+FONTES: 
+font-family: 'Francois One', sans-serif;
+font-family: 'Source Code Pro', monospace;
+*/
+
+
+/* INICIO DA PAGINA */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0px 10px;
+}
+
+ul.nav {
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 25px 15px 15px;
+    text-decoration: none;
+}
+
+li a#menu:hover {
+    background-color: #111;
+}
+
+body {
+    background-image: url(../img/pedro_bsb.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+main {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(224, 206, 196);
+}
+
+main h1 {
+    padding-top: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(51, 51, 51, 0.6);
+}
+
+main h3 {
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(51, 51, 51, 0.6)
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+}
+
+
+/* FIM DA PÁGINA */
+
+
+/* INICIO DO FORMULARIO */
+
+section#form {
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 40px;
+    background-color: rgba(51, 51, 51, 0.6);
+    border-radius: 0.5em;
+}
+
+input[type=date] {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#interesses-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+fieldset {
+    padding: 20px;
+    margin: 20px;
+    border-color: rgb(224, 206, 196);
+}
+
+legend {
+    color: aliceblue;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+input,
+textarea {
+    border-radius: 4px;
+    border-style: none;
+    height: 30px;
+    width: 250px;
+    transition: all .2s ease-in-out;
+}
+
+input:hover {
+    transform: scale(1.05);
+}
+
+.data_nasc label {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+input[type="radio"] {
+    width: 1em;
+    height: 1em;
+}
+
+.interesse {
+    text-align: left;
+}
+
+.interesse label {
+    display: inline-block;
+}
+
+.perfil label {
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    width: 1em;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+textarea {
+    height: 80px;
+    width: 250px;
+    padding: 8px 0 0 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+button {
+    margin: 30px 10px;
+    width: 115px;
+    height: 35px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #333;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: #333;
+    box-shadow: 0px 0px 10px wheat;
+}
+
+
+/* FIM DO FORMULARIO */

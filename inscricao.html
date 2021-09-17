@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/inscricao_style.css">
+    <title>Checkpoint II: Brasília - Inscrição</title>
+</head>
+
+<body>
+    <header>
+        <ul class="nav">
+            <li style="float:left"><a href="./index.html">BRASÍLIA</a></li>
+            <li><a href="http://bdce.unb.br/" id="menu">HISTÓRIA EM FOTOS</a></li>
+            <li><a href="https://www.df.gov.br/agua-mineral/" target="_blank" id="menu">ECOTURISMO</a></li>
+            <li><a href="https://goo.gl/maps/dxqf7bvponfwL3Ca9" target="_blank" id="menu">ONDE COMER</a></li>
+            <li><a href="./inscricao.html" id="menu">INSCRIÇÃO</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Brasília _ o ufanismo aeroplanificado</h1>
+        <h3>cidade de espaços vazios: arquitetônicos e humanos</h3>
+        <section id="form">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome">nome *</label>
+                    <input type="text" name="nome" id="nome" required maxlength="100">
+                    <label for="email">email *</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="telefone">telefone *</label>
+                    <input type="number" name="telefone" id="telefone" required>
+                    <label for="nascimento">data de nascimento *</label>
+                    <input type="date" name="nascimento" id="nascimento" required>
+                    <label for="maioridade">Você confirma que tem mais de 18 anos? *</label>
+                    <span class="data_nasc">
+                        <input type="radio" name="maioridade" id="sim">
+                        <label for="sim">✅</label>
+                        <input type="radio" name="maioridade" id="nao">
+                        <label for="nao">❌</label>
+                    </span>
+                </fieldset>
+                <fieldset>
+                    <legend>Pontos Turísticos</legend>
+                    <div id="interesses-flex">
+                        <fieldset>
+                            <legend>Arquitetônicos</legend>
+                            <div class="interesse">
+                                <input type="checkbox" name="interesse" id="itamaraty">
+                                <label for="itamaraty">itamaraty</label><br>
+                                <input type="checkbox" name="interesse" id="quadra">
+                                <label for="quadra">quadra modelo</label><br>
+                                <input type="checkbox" name="interesse" id="mab">
+                                <label for="mab">mab</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Históricos</legend>
+                            <div class="interesse">
+                                <input type="checkbox" name="interesse" id="catete">
+                                <label for="catete">catetinho</label><br>
+                                <input type="checkbox" name="interesse" id="praca3">
+                                <label for="praca3">praça dos 3 poderes</label><br>
+                                <input type="checkbox" name="interesse" id="panteao">
+                                <label for="panteao">panteão da pátria</label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Naturais</legend>
+                            <div class="interesse">
+                                <input type="checkbox" name="interesse" id="pqcidade">
+                                <label for="pqcidade">parque da cidade</label><br>
+                                <input type="checkbox" name="interesse" id="pqagua">
+                                <label for="pqagua">parque água mineral</label><br>
+                                <input type="checkbox" name="interesse" id="chapada">
+                                <label for="chapada">chapada dos veadeiros</label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Perfil</legend>
+                    <div class="perfil">
+                        <input type="checkbox" name="perfil" id="viajante">
+                        <label for="viajante">viajante</label>
+                        <input type="checkbox" name="perfil" id="residente">
+                        <label for="residente">residente</label>
+                        <input type="checkbox" name="perfil" id="estudante">
+                        <label for="estudante">estudante</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Pedido</legend>
+                    <label for="observacoes">observações: </label>
+                    <textarea placeholder="abre o coração" name="observacoes" id="observacoes" cols="22" rows="5"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Recomeçar</button>
+            </form>
+        </section>
+    </main>
+</body>
+<footer>
+    <p>💛</p>
+</footer>
+
+</html>
